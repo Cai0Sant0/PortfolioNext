@@ -6,7 +6,11 @@ import { BiDownload } from 'react-icons/bi'
 import { FaCode } from 'react-icons/fa'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
-const Nav = () => {
+type Props = {
+    openNav:()=>void;
+}
+
+const Nav = ({openNav}:Props) => {
 
 const [navBg, setNavBg] = useState(false);
 
@@ -49,7 +53,7 @@ useEffect(()=>{
                     <span>Baixar CV</span>
                 </button>
                 {/* menu Burguer */}
-                <HiBars3BottomRight className="w-8 h-8 cursor-pointer te text-white lg:hidden"/>
+                <HiBars3BottomRight className="w-8 h-8 cursor-pointer te text-white lg:hidden" onClick={openNav}/>
             </div>
         </div>
     </div>
