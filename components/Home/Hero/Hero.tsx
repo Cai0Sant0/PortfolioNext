@@ -15,8 +15,9 @@ const Hero = () => {
           height={150}
           className="rounded-full border-8 border-[#0c0c48aa]"
         />
-        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold tracking-wider">Criando Web Produtos, <br /> Inovações<span className="text-cyan-200"> e Experiências.</span></h1>
-        <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl mt-6 text-center font-bold tracking-wider">Criando Web Produtos, <br /> Inovações<span className="text-cyan-200"> e Experiências.</span></h1>
+        <h2 className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center flex-col
+        ">
           Olá! Meu nome é Caio - Um Apaixonado por
           <span className="text-cyan-200 font-bold">
             <Typewriter options={{
