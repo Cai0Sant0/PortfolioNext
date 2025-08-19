@@ -19,7 +19,7 @@ const Projects = () => {
                     <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Projeto Casa de Couro Romeu</h1>
 
                     <h1 className="pt-2 font-medium text-white/80">React, Tailwind CSS</h1>
-                    <ButtonsProjects linkGithub= "https://github.com/Cai0Sant0/ProjetoPessoal" linkSite= "projeto-pessoal-caio-barbosa.vercel.app" />
+                    <ButtonsProjects linkGithub= "https://github.com/Cai0Sant0/ProjetoPessoal" linkSite= "https://projeto-pessoal-6c1widni3-caio-barbosas-projects.vercel.app/" />
                 </div>
 
                 {/* Segundo projeto */}
@@ -49,9 +49,9 @@ const Projects = () => {
                 <div>
                     <Image src={"/images/projeto04.png"} alt="imagem projeto github" height={650} width={800} className="rounded-lg" />
 
-                    <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Projeto Casa de Couro Romeu</h1>
+                    <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Projeto Te Vejo</h1>
 
-                    <h1 className="pt-2 font-medium text-white/80">React, Javascript, IA</h1>
+                    <h1 className="pt-2 font-medium text-white/80">React, Javascript, Bootstrap, IA</h1>
                     <ButtonsProjects linkGithub ="https://github.com/Te-Vejo/Front-End-TeVejo" linkSite= "https://tevejo.com.br/" />
                 </div>
             </div>
