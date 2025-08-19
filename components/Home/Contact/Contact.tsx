@@ -19,20 +19,20 @@ const Contact = () => {
           </p>
           <div className="mt-7">
             <div className="flex items-center space-x-3 mb-4">
-              <BiPhone className="w-9 h-9 text-cyan-300" />
-              <p className="text-xl font-bold text-gray-400">
+              <BiPhone className="w-8 h-8 text-cyan-300" />
+              <p className="text-sm font-bold text-gray-400">
                 +55 11 93227-6446
               </p>
             </div>
             <div className="flex items-center space-x-3 mb-4">
-              <BiEnvelope className="w-9 h-9 text-cyan-300" />
-              <p className="text-xl font-bold text-gray-400">
+              <BiEnvelope className="w-8 h-8 text-cyan-300" />
+              <p className="text-sm font-bold text-gray-400">
                 caiosantobarbosa104@outlook.com
               </p>
             </div>
             <div className="flex items-center space-x-3 mb-4">
-              <BiMap className="w-9 h-9 text-cyan-300" />
-              <p className="text-xl font-bold text-gray-400">
+              <BiMap className="w-8 h-8 text-cyan-300" />
+              <p className="text-sm font-bold text-gray-400">
                 São Paulo, Brasil
               </p>
             </div>
@@ -73,18 +73,20 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Nome"
-            className="px-4 py-3.5 bg-[#363659] text-white outline-none ronded-md w-full placeholder:text-white/50"
+            className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/50"
+          />
+          <input
+            type="email"
+            placeholder="Endereço de e-mail"
+            className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md  w-full placeholder:text-white/50"
           />
           <input
             type="text"
-            placeholder="Nome"
-            className="px-4 py-3.5 bg-[#363659] text-white outline-none ronded-md w-full placeholder:text-white/50"
+            placeholder="Número do celular"
+            className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/50"
           />
-          <input
-            type="text"
-            placeholder="Nome"
-            className="px-4 py-3.5 bg-[#363659] text-white outline-none ronded-md w-full placeholder:text-white/50"
-          />
+          <textarea placeholder="Sua Mensagem" className="px-4 py-3.5 mt-6 bg-[#363659] text-white outline-none rounded-md w-full placeholder:text-white/50 h-[10rem]"></textarea>
+          <button className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full">Enviar mensagem</button>
         </div>
       </div>
     </div>
