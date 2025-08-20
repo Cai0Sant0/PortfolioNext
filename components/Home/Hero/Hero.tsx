@@ -17,14 +17,21 @@ const Hero = () => {
           width={150}
           height={150}
           className="rounded-full border-8 border-[#0c0c48aa]"
+          data-aos="fade-up"
         />
-        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl mt-6 text-center font-bold tracking-wider">
+        <h1
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl mt-6 text-center font-bold tracking-wider"
+        >
           Criando Web Produtos, <br /> Inovações
           <span className="text-cyan-200"> e Experiências.</span>
         </h1>
         <h2
           className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center flex-col
         "
+          data-aos="fade-up"
+          data-aos-delay="400"
         >
           Olá! Meu nome é Caio - Um Apaixonado por
           <span className="text-cyan-200 font-bold">
@@ -45,7 +52,11 @@ const Hero = () => {
             />
           </span>
         </h2>
-        <button className="mt-6 px-10 py-4 bg-blue-500 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
+        <button
+          data-aos="fade-up"
+          data-aos-delay="600"
+          className="mt-6 px-10 py-4 bg-blue-500 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium"
+        >
           <span>Veja meu trabalho</span>
           <BsArrowRight className="w-5 h-5 ml-2 inline-block" />
         </button>

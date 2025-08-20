@@ -17,7 +17,7 @@ const Resume = () => {
           <h1 className="text-3xl text-center sm:text-4xl font-bold text-white">
             Meus <span className="text-cyan-200">Trabalhos</span>
           </h1>
-          <div className="mt-10">
+          <div className="mt-10" data-aos = "zoom-in" data-aos-anchor-placement = "top-ceneter">
             <ResumeCard
               Icon={CiHeadphones}
               role="Analista de Atendimento"
@@ -40,7 +40,7 @@ const Resume = () => {
           <h1 className="text-3xl text-center sm:text-4xl font-bold text-white">
             Meu <span className="text-cyan-200">Ensino</span>
           </h1>
-          <div className="mt-8">
+          <div className="mt-8"  data-aos = "zoom-out" data-aos-delay = "300">
             <ResumeCard
               Icon={BiBadge}
               role="Prof.Camargo Aranha"

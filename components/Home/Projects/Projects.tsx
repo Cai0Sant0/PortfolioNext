@@ -12,7 +12,11 @@ const Projects = () => {
       </h1>
       <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-19 mt-16">
         {/* Primeiro projeto */}
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-ceneter"
+          data-aos-delay="0"
+        >
           <Image
             src={"/images/projeto01.png"}
             alt="imagem projeto github"
@@ -36,7 +40,9 @@ const Projects = () => {
 
         {/* Segundo projeto */}
 
-        <div>
+        <div data-aos="fade-up"
+          data-aos-anchor-placement="top-ceneter"
+          data-aos-delay="100">
           <Image
             src={"/images/projeto02.png"}
             alt="imagem projeto github"
@@ -60,7 +66,9 @@ const Projects = () => {
 
         {/* Terceiro projeto */}
 
-        <div>
+        <div data-aos="fade-up"
+          data-aos-anchor-placement="top-ceneter"
+          data-aos-delay="200">
           <Image
             src={"/images/projeto03.png"}
             alt="imagem projeto github"
@@ -84,7 +92,8 @@ const Projects = () => {
 
         {/* Quarto projeto */}
 
-        <div>
+        <div data-aos="fade-up"
+          data-aos-delay="250">
           <Image
             src={"/images/projeto04.png"}
             alt="imagem projeto github"
