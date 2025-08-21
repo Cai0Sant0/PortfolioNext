@@ -4,8 +4,6 @@ import { FaJava } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import {
   SiJavascript,
-  SiNextdotjs,
-  SiNodedotjs,
   SiReact,
   SiTailwindcss,
   SiTypescript,
@@ -48,7 +46,7 @@ const skills = [
 const Skills = () => {
   return (
     <div>
-      <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
+      <h1 id="Habilidades" className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
         Minhas <span className="text-cyan-300">Habilidades</span>
       </h1>
       <div className="flex flex-wrap justify-center gap-6 mt-16">

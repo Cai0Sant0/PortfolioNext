@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-16 pb-16" id="Contato">
       <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Text content */}
         <div>
@@ -72,8 +72,7 @@ const Contact = () => {
         <div
           className="md:p-10 p-5 bg-[#131332] rounded-lg"
           data-aos="zoom-in"
-          data-aos-anchor-placement="center-center"
-          data-aos-delay="0"
+          data-aos-delay="100"
         >
           <input
             type="text"

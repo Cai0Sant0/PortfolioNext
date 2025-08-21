@@ -5,7 +5,7 @@ import ButtonsProjects from "./ButtonsProjects";
 
 const Projects = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div className="pt-16 pb-16" id = "Trabalhos">
       <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
         Uma pequena seleção de <span className="text-cyan-300">Projetos</span>{" "}
         recentes
