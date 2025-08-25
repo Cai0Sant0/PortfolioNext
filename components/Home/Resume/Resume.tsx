@@ -21,17 +21,17 @@ const Resume = () => {
             <ResumeCard
               Icon={CiHeadphones}
               role="Analista de Atendimento"
-              desc=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex maxime doloremque nihil quaerat consequatur porro numquam impedit, est minima! Quod rerum vitae libero laborum officiis."
+              desc="Experiências em atender as necessidades dos clientes na plataforma PayPal."
             />
             <ResumeCard
               Icon={SiWebmoney}
               role="Auxiliar de cobrança"
-              desc=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex maxime doloremque nihil quaerat consequatur porro numquam impedit."
+              desc="Aprendi a lidar com os correios, demandas de logística reversa e criar relatórios em excel para facilitar a administração dos prazos."
             />
             <ResumeCard
               Icon={BsDatabase}
               role="Auxiliar de TI"
-              desc=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex maxime doloremque nihil quaerat consequatur porro numquam impedit."
+              desc="Desenvolvi experiêncais relevantes na área da tecnologia como análise de dados, gerenciamento de Banco de Dados, SQL e implementação de plataformas ERP."
             />
           </div>
         </div>
@@ -44,19 +44,19 @@ const Resume = () => {
             <ResumeCard
               Icon={BiBadge}
               role="Prof.Camargo Aranha"
-              desc=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex maxime doloremque nihil quaerat consequatur porro numquam impedit."
+              desc="Me formei no ensino médio integrado ao técnico do Desenvolvimento de Sistemas, obtive diversos conhecimentos na área da tecnologia por meio desse curso técnico."
               date="Jan 2022 - Dez 2024"
             />
             <ResumeCard
               Icon={RiGraduationCapLine}
               role="São Judas Tadeu"
-              desc=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex maxime doloremque nihil quaerat consequatur porro numquam impedit."
+              desc="Atualmente estudo para me formar no ensino superior na área de Análise e Desenvolvimento de Sistemas."
               date="Jan 2025 - Jun 2027"
             />
             <ResumeCard
               Icon={FaSailboat}
               role="Instituto Proa"
-              desc=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex maxime doloremque nihil quaerat consequatur porro numquam impedit."
+              desc="Curso de aprendizagem voltado a área da programação, foram 6 meses de intensos aprendizados sobre Java, MySQL, javascript e React."
               date="Jun 2024 - Dez 2024"
             />
           </div>

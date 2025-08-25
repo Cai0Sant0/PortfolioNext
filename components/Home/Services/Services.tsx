@@ -21,7 +21,7 @@ const Services = () => {
           <ServiceCards
             icon="/images/s2.png"
             name="Web e Mobile"
-            description="Desenvolvendo interfaces intuitivas, eficientes e agradáveis para se usar."
+            description="Criação de sites e aplicativos responsivos, modernos e otimizados para todos os dispositivos."
           />
         </div>
         <div data-aos = "fade-right" data-aos-anchor-placement = "top-center"
@@ -29,7 +29,7 @@ const Services = () => {
           <ServiceCards
             icon="/images/s3.png"
             name="Design e Criatividade"
-            description="Desenvolvendo interfaces intuitivas, eficientes e agradáveis para se usar."
+            description="Soluções visuais inovadoras, alinhando criatividade e estratégia para destacar sua marca."
           />
         </div>
         <div data-aos = "fade-right" data-aos-anchor-placement = "top-center"
@@ -37,7 +37,7 @@ const Services = () => {
           <ServiceCards
             icon="/images/s4.png"
             name="Desenvolvimento"
-            description="Desenvolvendo interfaces intuitivas, eficientes e agradáveis para se usar."
+            description="Implementação de sistemas robustos, escaláveis e personalizados para o seu negócio."
           />
         </div>
       </div>
