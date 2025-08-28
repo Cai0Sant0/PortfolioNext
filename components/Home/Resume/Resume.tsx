@@ -1,6 +1,5 @@
 import React from "react";
 import ResumeCard from "./ResumeCard";
-import { FaCodepen, FaGraduationCap, FaReact } from "react-icons/fa";
 import { BsDatabase } from "react-icons/bs";
 import { BiBadge } from "react-icons/bi";
 import { CiHeadphones } from "react-icons/ci";
